@@ -91,3 +91,45 @@ button {
     width: 200px;
     margin: 40px 0;
 }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    
+}
+
+.table-calc {
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.table-calc thead tr td {
+    background: #1f5eaf;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.table-calc tbody tr {
+    border-bottom: 1px solid #707070;
+    background: #fff;
+}
+
+.table-calc tbody tr.table-calc-blue td {
+    color: #1f5eaf;
+}
+
+.table-calc tbody tr td {
+    color: #707070;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dee2e7;
+}
