@@ -41,8 +41,6 @@ function clear (e){
     document.querySelector('.resultado3').style.backgroundColor = "#fff"
     document.querySelector('.resultado4').style.backgroundColor = "#fff"
     document.querySelector('.resultado5').style.backgroundColor = "#fff"
-    
-
 }
 
 limpar.addEventListener('click', clear)
