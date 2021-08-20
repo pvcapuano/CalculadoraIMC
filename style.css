@@ -176,7 +176,8 @@ tbody {
         margin-top: -60px;
     }
     .conteudo {
-        padding: 20px;
+        padding: 30px;
+
     }
    
     .table-calc {
@@ -199,6 +200,9 @@ tbody {
 
     .inputs input {
         width: 70%;
+    }
+    button {
+        font-size: 10px;
     }
 }
 
