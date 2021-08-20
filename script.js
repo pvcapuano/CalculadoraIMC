@@ -35,12 +35,17 @@ function clear (e){
 
     // zerar os valores
     inputs.forEach(input => input.value = '')
+
+    document.getElementById('resultado').innerHTML = '' 
+
     // gambiarra pra voltar pro background original
     document.querySelector('.resultado1').style.backgroundColor = "#fff"
     document.querySelector('.resultado2').style.backgroundColor = "#fff"
     document.querySelector('.resultado3').style.backgroundColor = "#fff"
     document.querySelector('.resultado4').style.backgroundColor = "#fff"
     document.querySelector('.resultado5').style.backgroundColor = "#fff"
+
+    
 }
 
 limpar.addEventListener('click', clear)
